@@ -1,0 +1,20 @@
+{
+  "customers": [
+    { "id": 1, "name": "Ravi Kumar", "email": "ravi@example.com", "balance": 1200 },
+    { "id": 2, "name": "Anita Singh", "email": "anita@example.com", "balance": 4500 },
+    { "id": 3, "name": "Sunil Joshi", "email": "sunil@example.com", "balance": 3200 },
+    { "id": 4, "name": "Meera Patel", "email": "meera@example.com", "balance": 7800 },
+    { "id": 5, "name": "Arjun Shah", "email": "arjun@example.com", "balance": 2100 },
+    { "id": 6, "name": "Kavita Rao", "email": "kavita@example.com", "balance": 6400 },
+    { "id": 7, "name": "Rohit Verma", "email": "rohit@example.com", "balance": 980 },
+    { "id": 8, "name": "Priya Nair", "email": "priya@example.com", "balance": 4300 },
+    { "id": 9, "name": "Vikram Singh", "email": "vikram@example.com", "balance": 1500 }
+  ],
+  "transactions": [
+    { "id": 1, "date": "2025-11-01", "amount": 1200, "type": "credit", "customerId": 1 },
+    { "id": 2, "date": "2025-11-03", "amount": -200, "type": "debit", "customerId": 2 },
+    { "id": 3, "date": "2025-10-22", "amount": 500, "type": "credit", "customerId": 3 },
+    { "id": 4, "date": "2025-09-18", "amount": -100, "type": "debit", "customerId": 4 },
+    { "id": 5, "date": "2025-08-05", "amount": 750, "type": "credit", "customerId": 5 }
+  ]
+}
